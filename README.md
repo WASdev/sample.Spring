@@ -1,17 +1,20 @@
-Servlet Sample
+Spring/SpringMVC v3.2.1 Integration
 ==============
 
-This project contains a simple Servlet application.
+This open source integration demonstrates Spring and Spring MVC integration through a simple phonebook sample Web application deployed to Liberty.
 
-## Running in Eclipse
+This sample demonstrates Spring and Spring MVC integration through a simple phonebook Web application deployed to Liberty.
 
-1. Download and install [Eclipse with the WebSphere Developer Tools](https://developer.ibm.com/wasdev/downloads/liberty-profile-using-eclipse/).
-2. Create a new Liberty Profile Server. See [step 3](https://developer.ibm.com/wasdev/downloads/liberty-profile-using-eclipse/) for details.
-3. Clone this repository.
-4. Import the sample into Eclipse using *File -> Import -> Maven -> Existing Maven Projects* option.
-5. Right click on the project and go to *Properties > Project Facets* and select *Dynamic Web Module* (if not already selected).
-6. Deploy the sample into Liberty server. Right click on the *servlet* sample and select *Run As -> Run on Server* option. Find and select the Liberty profile server and press *Finish*. 
-7. Go to: [http://localhost:9080/servlet](http://localhost:9080/servlet)
+This sample can be installed onto runtime versions 8.5.5.0 and later.
+
+
+## Running in Eclipse with Maven
+
+1. Clone this project and import into Eclipse as an 'Existing Maven Project'.
+2. Right-click the project and select **Run As > Maven Clean**.
+3. Right-click the project and select **Run As > Maven Install**.
+4. Right-click the project and select **Run As > Maven Build...** then run the goal `liberty:run-server`.
+5. You should see the following in the console: `Application PhoneBookBySpringMVC started in XX.XX seconds.`
 
 ## Running with Maven
 
@@ -23,19 +26,14 @@ Use the following steps to run the application with Maven:
     ```bash
     $ mvn clean install
     ```
-
+    
 2. To run the server with the Servlet sample execute:
     ```bash
     $ mvn liberty:run-server
     ```
 
-Once the server is running, the application will be available under [http://localhost:9080/servlet](http://localhost:9080/servlet).
-
-## Deploying to Bluemix
-
-Click the button below to deploy your own copy of this application to [Bluemix](https://bluemix.net).
-
-[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/WASdev/sample.servlet.git)
+In your browser, enter the URL for the application: [http://localhost:9811/phonebook/](http://localhost:9811/phonebook/) (where port 9811 assumes the httpEndpoint provided in the sample server.xml has not been modified).
+In your browser, you should see the phone book displayed.
 
 # Notice
 
@@ -58,4 +56,3 @@ limitations under the License.
 ````
 
 [Liberty Maven Plug-in]: https://github.com/WASdev/ci.maven
-
