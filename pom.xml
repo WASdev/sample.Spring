@@ -39,7 +39,6 @@
 		<testServerHttpPort>9080</testServerHttpPort>
 		<testServerHttpsPort>9443</testServerHttpsPort>
 		<warContext>phonebook</warContext>
-		<package.file>${project.build.directory}/${project.artifactId}.zip</package.file>
 		<packaging.type>usr</packaging.type>
 </properties>
 
@@ -48,7 +47,6 @@
 		<profile>
 			<id>runnable</id>
 			<properties>
-				<package.file>${project.build.directory}/${project.artifactId}.jar</package.file>
 				<packaging.type>runnable</packaging.type>
 			</properties>
 		</profile>
