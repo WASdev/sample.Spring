@@ -40,7 +40,7 @@
 		<testServerHttpsPort>9443</testServerHttpsPort>
 		<warContext>phonebook</warContext>
 		<packaging.type>usr</packaging.type>
-</properties>
+    </properties>
 
 
 	<profiles>
@@ -187,37 +187,6 @@
 						<default.https.port>${testServerHttpsPort}</default.https.port>
 						<appLocation>${project.artifactId}.war</appLocation>
 					</bootstrapProperties>
-				</configuration>
-			</plugin>
-			<!-- Plugin to run functional tests -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-failsafe-plugin</artifactId>
-				<version>2.18.1</version>
-				<executions>
-					<execution>
-						<phase>integration-test</phase>
-						<id>integration-test</id>
-						<goals>
-							<goal>integration-test</goal>
-						</goals>
-						<configuration>
-							<systemPropertyVariables>
-								<liberty.test.port>${testServerHttpPort}</liberty.test.port>
-								<war.context>${warContext}</war.context>
-							</systemPropertyVariables>
-						</configuration>
-					</execution>
-					<execution>
-						<id>verify-results</id>
-						<goals>
-							<goal>verify</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<summaryFile>${project.build.directory}/test-reports/it/failsafe-summary.xml</summaryFile>
-					<reportsDirectory>${project.build.directory}/test-reports/it</reportsDirectory>
 				</configuration>
 			</plugin>
 		</plugins>
