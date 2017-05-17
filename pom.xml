@@ -185,7 +185,7 @@
 					    <appContext>${warContext}</appContext>
 						<default.http.port>${testServerHttpPort}</default.http.port>
 						<default.https.port>${testServerHttpsPort}</default.https.port>
-						<appLocation>${project.artifactId}.war</appLocation>
+						<appLocation>${project.build.finalName}.war</appLocation>
 					</bootstrapProperties>
 				</configuration>
 			</plugin>

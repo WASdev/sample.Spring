@@ -18,7 +18,7 @@ This sample can be installed onto runtime versions 8.5.5.0 and later.
 
 ## Running with Maven
 
-This project can be built with [Apache Maven](http://maven.apache.org/). The project uses [Liberty Maven Plug-in][] to automatically download and install Liberty with Java EE7 Web Profile runtime from the [Maven Central](https://developer.ibm.com/wasdev/downloads/). Liberty Maven Plug-in is also used to create, configure, and run the application on the Liberty server. 
+This project can be built with [Apache Maven](http://maven.apache.org/). The project uses [Liberty Maven Plug-in][] to automatically download and install Liberty with Java EE7 Web Profile runtime from the Maven Central. Liberty Maven Plug-in is also used to create, configure, and run the application on the Liberty server. 
 
 Use the following steps to run the application with Maven:
 
