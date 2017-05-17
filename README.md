@@ -13,7 +13,7 @@ This sample can be installed onto runtime versions 8.5.5.0 and later.
 1. Clone this project and import into Eclipse as an 'Existing Maven Project'.
 2. Right-click the project and select **Run As > Maven Clean**.
 3. Right-click the project and select **Run As > Maven Install**.
-4. Right-click the project and select **Run As > Run on Server.
+4. Right-click the project and select **Run As > Run on Server**.
 5. You should see the following in the console: `Application PhoneBookBySpringMVC started in XX.XX seconds.`
 
 ## Running with Maven
