@@ -38,7 +38,7 @@
 		<!-- Liberty server properties -->
 		<testServerHttpPort>9080</testServerHttpPort>
 		<testServerHttpsPort>9443</testServerHttpsPort>
-		<warContext>phonebook</warContext>
+		<warContext>sample.spring</warContext>
 		<packaging.type>usr</packaging.type>
     </properties>
 

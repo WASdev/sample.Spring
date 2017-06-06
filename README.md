@@ -12,7 +12,7 @@ This sample can be installed onto runtime versions 8.5.5.0 and later.
 
 1. Clone this project and import into Eclipse as an 'Existing Maven Project'.
 2. Right-click the project and select **Run As > Run on Server**.
-3. You should see the following in the console: `Application PhoneBookBySpringMVC started in XX.XX seconds.`
+3. You should see the following in the console: `Application sample.spring started in XX.XX seconds.`
 
 ## Running with Maven
 
@@ -30,7 +30,7 @@ Use the following steps to run the application with Maven:
     $ mvn liberty:run-server
     ```
 
-In your browser, enter the URL for the application: [http://localhost:9811/phonebook/](http://localhost:9811/phonebook/) (where port 9811 assumes the httpEndpoint provided in the sample server.xml has not been modified).
+In your browser, enter the URL for the application: [http://localhost:9811/sample.spring/](http://localhost:9811/sample.spring/) (where port 9811 assumes the httpEndpoint provided in the sample server.xml has not been modified).
 In your browser, you should see the phone book displayed.
 
 # Notice
