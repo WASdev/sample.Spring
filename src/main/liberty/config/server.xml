@@ -1,4 +1,4 @@
-<!-- Copyright (c) 2015 IBM Corp.
+<!-- Copyright (c) 2015, 2017 IBM Corp.
  
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -24,15 +24,13 @@
     
     </httpEndpoint>
     
-        <library id="SpringSampleLibs">
+    <library id="SpringSampleLibs">
         <fileset dir="${shared.resource.dir}" includes="*.jar" scanInterval="5s" />
     </library>
     
     
-    <application name="PhoneBookBySpringMVC" context-root="${appContext}" location="${appLocation}" type="war">
-		<classloader commonLibraryRef="SpringSampleLibs" />
-	</application>
-	
-	
-    
+    <application id="sample.spring" context-root="${appContext}" location="${appLocation}" name="sample.spring" type="war">
+        <classloader commonLibraryRef="SpringSampleLibs" />
+    </application>
+
 </server>
