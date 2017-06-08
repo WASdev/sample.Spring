@@ -1,4 +1,4 @@
-Spring/SpringMVC v3.2.1 Integration
+Spring/SpringMVC v3.2.1 Integration [![Build Status](https://travis-ci.org/WASdev/sample.Spring.svg?branch=master)](https://travis-ci.org/WASdev/sample.Spring)
 ==============
 
 This open source integration demonstrates Spring and Spring MVC integration through a simple phonebook sample Web application deployed to Liberty.
