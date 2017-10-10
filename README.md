@@ -29,6 +29,28 @@ Use the following steps to run the application with Maven:
     ```bash
     $ mvn liberty:run-server
     ```
+ 
+## Running with Gradle
+
+This project can be built with [Apache Gradle]. The project uses [Liberty Gradle Plug-in] to automatically download and install Liberty with Java EE7 Full Platform runtime from [Maven Central]. Liberty Gradle Plug-in is also used to create, configure, and run the application on the Liberty server. 
+
+Use the following steps to run the application with Gradle:
+
+1. Execute full Gradle build. This will cause Liberty Gradle Plug-in to download and install Liberty profile server.
+    ```bash
+    $ gradle clean build
+    ```
+
+2. To run the server with the JMS application execute:
+    ```bash
+    $ gradle libertyStart
+    ```
+        
+3. To stop the server with the JMS application execute:
+    ```bash
+    $ gradle libertyStop
+    ```
+ 
 
 In your browser, enter the URL for the application: [http://localhost:9811/sample.spring/](http://localhost:9811/sample.spring/) (where port 9811 assumes the httpEndpoint provided in the sample server.xml has not been modified).
 In your browser, you should see the phone book displayed.
@@ -54,3 +76,5 @@ limitations under the License.
 ````
 
 [Liberty Maven Plug-in]: https://github.com/WASdev/ci.maven
+[Liberty Gradle Plug-in]: https://github.com/WASdev/ci.gradle
+
