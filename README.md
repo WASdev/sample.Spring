@@ -10,13 +10,13 @@ This sample can be installed onto runtime versions 8.5.5.0 and later.
 
 
 ## Maven
-## Running in Eclipse with Maven
+### Running in Eclipse with Maven
 
 1. Clone this project and import into Eclipse as an 'Existing Maven Project'.
 2. Right-click the project and select **Run As > Run on Server**.
 3. You should see the following in the console: `Application sample.spring started in XX.XX seconds.`
 
-## Running with Maven Command Line
+### Running with Maven command-line
 
 This project can be built with [Apache Maven]. The project uses [Liberty Maven Plug-in] to automatically download and install the Liberty Java EE 7 Full Platform runtime from [Maven Central]. Liberty Maven Plug-in is also used to create, configure, and run the application on the Liberty server. 
 
@@ -33,7 +33,7 @@ Use the following steps to run the application with Maven:
     ```
 
 ## Gradle
-## Running in Eclipse with Gradle
+### Running in Eclipse with Gradle
 
 1. Clone this project and import into Eclipse as an 'Existing Gradle Project'.
 2. Go to Help > Eclipse Marketplace > Install Buildship Gradle Integration 2.0 
@@ -42,7 +42,7 @@ Use the following steps to run the application with Maven:
 3. You should see the following in the console: `Application sample.spring started in XX.XX seconds.`
 
  
-## Running with Gradle Command Line
+### Running with Gradle command-line
 
 This project can be built with [Gradle]. The project uses [Liberty Gradle Plug-in] to automatically download and install Liberty with Java EE 7 Full Platform runtime from [Maven Central]. Liberty Gradle Plug-in is also used to create, configure, and run the application on the Liberty server. 
 
