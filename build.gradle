@@ -76,7 +76,7 @@ liberty {
                                'appContext': warContext,
                                'appLocation': war.archiveName]
         
-        // looseApplication = true
+        looseApplication = true
     }
     
     packageLiberty {
