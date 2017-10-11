@@ -27,7 +27,7 @@ Use the following steps to run the application with Maven:
     $ mvn clean install
     ```
 
-2. To run the server with the JMS application execute:
+2. To run the server with the Spring application execute:
     ```bash
     $ mvn liberty:run-server
     ```
@@ -53,12 +53,12 @@ Use the following steps to run the application with Gradle:
     $ gradle clean build
     ```
 
-2. To run the server with the JMS application execute:
+2. To run the server with the Spring application execute:
     ```bash
     $ gradle libertyStart
     ```
         
-3. To stop the server with the JMS application execute:
+3. To stop the server with the Spring application execute:
     ```bash
     $ gradle libertyStop
     ```
