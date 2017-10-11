@@ -14,7 +14,7 @@ This sample can be installed onto runtime versions 8.5.5.0 and later.
 2. Right-click the project and select **Run As > Run on Server**.
 3. You should see the following in the console: `Application sample.spring started in XX.XX seconds.`
 
-## Running in Eclipse with Maven
+## Running in Eclipse with Gradle
 
 1. Clone this project and import into Eclipse as an 'Existing Gradle Project'.
 2. Go to Help > Eclipse Marketplace > Install Buildship Gradle Integration 2.0 
