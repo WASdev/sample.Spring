@@ -42,7 +42,7 @@ Use the following steps to run the application with Maven:
 3. You should see the following in the console: `Application sample.spring started in XX.XX seconds.`
 
  
-## Running with Gradle
+## Running with Gradle Command Line
 
 This project can be built with [Gradle]. The project uses [Liberty Gradle Plug-in] to automatically download and install Liberty with Java EE 7 Full Platform runtime from [Maven Central]. Liberty Gradle Plug-in is also used to create, configure, and run the application on the Liberty server. 
 
