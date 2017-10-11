@@ -7,8 +7,8 @@ version = '1'
 
 description = "Liberty Spring Gradle example"
 
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
 }
@@ -23,7 +23,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'net.wasdev.wlp.gradle.plugins:liberty-gradle-plugin:1.1-SNAPSHOT'
+        classpath 'net.wasdev.wlp.gradle.plugins:liberty-gradle-plugin:2.0-SNAPSHOT'
     }
 }
 
@@ -57,8 +57,8 @@ dependencies {
 }
 
 ext {
-    testServerHttpPort = '9811'
-    testServerHttpsPort = '9812' 
+    testServerHttpPort = 9811
+    testServerHttpsPort = 9812
     warContext = 'sample.spring'
     packagingType = 'usr'
 }
@@ -109,7 +109,5 @@ task printMessageAboutRunningServer {
     }
 }
 
-clean.dependsOn 'libertyStop'
-installApps.dependsOn 'war'
-libertyStart.dependsOn 'installApps'
+
 libertyStart.finalizedBy 'printMessageAboutRunningServer'
