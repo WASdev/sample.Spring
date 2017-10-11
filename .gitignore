@@ -1,8 +1,8 @@
-/target/
-/bin/
-/.apt_generated/
-/.gradle/
-/.classpath/
-/.project/
-/.settings/
-/build/
+target/
+bin/
+.apt_generated/
+.gradle/
+.classpath/
+.project/
+.settings/
+build/
