@@ -1,0 +1,18 @@
+objc[34421]: Class JavaLaunchHelper is implemented in both /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/bin/java (0x100a0e4c0) and /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/libinstrument.dylib (0x100b084e0). One of the two will be used. Which one is undefined.
+Launching defaultServer (WebSphere Application Server 17.0.0.2/wlp-1.0.17.cl170220170523-1818) on Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_144-b01 (en_US)
+[AUDIT   ] CWWKE0001I: The server defaultServer has been launched.
+[AUDIT   ] CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/17.0.0.2/lafiles/en.html
+[AUDIT   ] CWWKZ0058I: Monitoring dropins for applications. 
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://localhost:9811/sample.spring/
+[AUDIT   ] CWWKZ0001I: Application sample.spring started in 0.811 seconds.
+[AUDIT   ] CWWKF0012I: The server installed the following features: [jsp-2.3, servlet-3.1, el-3.0].
+[AUDIT   ] CWWKF0011I: The server defaultServer is ready to run a smarter planet.
+[err] log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).
+[err] log4j:WARN Please initialize the log4j system properly.
+[err] log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+7239 [Default Executor-thread-9] INFO com.ibm.ws.samples.spring.PhoneBookController  - Welcome home! The client locale is en_US.
+7245 [Default Executor-thread-9] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Invoking afterPropertiesSet() on bean with name 'listPhones'
+7245 [Default Executor-thread-9] DEBUG org.springframework.web.servlet.DispatcherServlet  - Rendering view [org.springframework.web.servlet.view.JstlView: name 'listPhones'; URL [/WEB-INF/views/listPhones.jsp]] in DispatcherServlet with name 'appServlet'
+7245 [Default Executor-thread-9] DEBUG org.springframework.web.servlet.view.JstlView  - Added model object 'phones' of type [java.util.ArrayList] to request in view with name 'listPhones'
+7256 [Default Executor-thread-9] DEBUG org.springframework.web.servlet.view.JstlView  - Forwarding to resource [/WEB-INF/views/listPhones.jsp] in InternalResourceView 'listPhones'
+7739 [Default Executor-thread-9] DEBUG org.springframework.web.servlet.DispatcherServlet  - Successfully completed request

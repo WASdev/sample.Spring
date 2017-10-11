@@ -1,0 +1,96 @@
+PI66702 MULTI-ADDRESS CORBANAME URLS DO NOT FAIL OVER TO THE SECOND ADDRESS WHEN THE FIRST ADDRESS SERVER IS DOWN
+PI66988 RUNNING COLLECTIVE COMMAND IN Z/OS RESULTS IN FSUM7332 SYNTAX ERROR.
+PI72472 WSCredTokenCallbackImpl returns null even when token exists
+PI72811 Allow excluded alternatives
+PI73188 Session activeCount shows a negative value
+PI75111 Admin center doesn't work with AccessControlException after enabling Java2 security
+PI75166 TAI can't obtain the SSL endpoint information using direct connection
+PI75280 Attributes missing from the element httpOptions and throws warning message
+PI75512 Cleanup up websocket connection when outbound connection attempt fails at the app server
+PI75590 Corrections are needed to the documentation in the Knowledge Center
+PI76629 Add authentication option to JWK endpoint invocation
+PI76699 Provide an option to override the default values for the ESI properties in the plugin-cfg.xml
+PI76834 Unable to use DB2 XML data type with EclipseLink JPA; Null pointer produced
+PI76891 Exception from com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator during server stop.
+PI76902 NoSuchMethodException when a program is using CONCAT function
+PI77129 MYFACES-3415 - [UI:REPEAT] Field value disappears if validation error exists on current site
+PI77286 Vetoed EJBs throw NullPointerException
+PI77438 JAXB context creation is very slow in Liberty during Web service load test
+PI77605 JAXRS Client APIs do not use configured SSL settings
+PI77615 JAXRS application start fails with ClassNotFoundException when JSPs are specified in web.xml
+PI77629 NullPointerException if login is required to access a servlet which uses a ReadListener.
+PI77770 Potential cross-site request forgery with WebSphere Application Server enabled with OAuth  (CVE-2017-1194)
+PI77856 EJB 3.x Stub class throws RemoteException for communication failure
+PI77976 ConstraintViolationException when using @Valid annotation
+PI77988 Update needed in module BBGZAFSM
+PI78072 A server start may receive a java.util.MissingResourceException if started with a disabled command port.
+PI78177 When a websocket connection is closed while reading data an object leak might occur
+PI78192 UserRegistry methods that throw RuntimeExceptions can cause federated repository failures
+PI78193 Returned default html error page has extra closing tags
+PI78245 An authData element without an id causes a NullPointerException in the logs.
+PI78436 Using batch injection in joblistener results in NullPointerException
+PI78444 The server schema incorrectly includes some internal configuration attributes
+PI78445 CWWKS9580E message might be logged after modifying the CSIv2 configuration.
+PI78463 After configuring a connection factory for CICS RAR, the server issues J2CA8501E
+PI78497 When trace is enabled extra information is being included in the controller's trace file
+PI78633 Access control exception due to read permission of a property from Cookie class
+PI78643 Eclipselink JPA/Auditing capablity in EE Environment fails with JNDI name parameter type
+PI78730 Intermittent CWWKS9520E message issued when CSIv2 is enabled.
+PI78738 Loop while closing an SSL connection
+PI78970 WHEN THE Z/OS CONNECT EE SERVER IS STOPPED AND RESTARTED, CICS ISSUES AN ABEND AT THE TIME OF THE WOLA REBIND.
+PI79123 ConfigUtility command line tool loosing equals sign on parameters ending with equals sign.
+PI79203 The monitor-1.0 feature may not be able to monitor user runtime components.
+PI79260 ProductInsights reports incorrect product version and host name
+PI79261 Deadlock with persistent EJB timers for Singleton beans
+PI79275 JAX-RS 2.0 Client calls fail when ssl-1.0 feature is enabled without any SSL configuration.
+PI79334 Unexpected error when an application is initializing during server stop.
+PI79391 ContainerRequestContext.hasEntity() returns true for a GET request.
+PI79397 org.omg.CORBA.BAD_OPERATION when running a select SQL statement
+PI79444 AccessControlException when using the servlet log method
+PI79686 Slow response when using batchpersistence in Liberty
+PI79787 Prevent WebSphere internal packages from being exposed to applications
+PI79800 The JSP Engine is not processing EL expressions correctly when they are in large blocks of character data
+PI79878 Server create command (using Java 8) overwrites server.env file
+PI79888 An sslRef on an LDAPRegistry without matching ssl config causes security init failure
+PI79987 Endpoint MBean information doesn't update when server.xml <httpEndpoint> is modified
+PI80072 Message CWWKB0392W is issued when the OTMA client name is specified in the zosLocalAdapters connection factory properties.
+PI80082 JAX-RS 2.0 OPTIONS methods are not invoked when used in sub-resource locator classes.
+PI80225 JUL Traces do not show up in logstash collector / bluemix log collector when binary logging is enabled
+PI80237 Null return codes for health actions cause NullPointerException
+PI80252 The size of the Java heap grows over time when using the MSGLOG DD.
+PI80256 AccessControlException thrown when finding resources if Java 2 security is enabled.
+PI80285 For JAX-RS 2.0, a request may fail with a 404 because a resource class was incorrectly indicated as not found.
+PI80313 Enable Post Data to be read multiple times.
+PI80319 Failure to parse tag library when the taglib is defined in the application
+PI80320 apiDiscovery urls may not update properly on Liberty Admin Center
+PI80335 DSRA8020E Error is thrown when using IBM i Toolbox JDBC driver with WebSphere Liberty
+PI80357 JMS connection factories defined through annotations can fail to allocate connections
+PI80514 A jndiEntry config element with a value of "0" is parsed as a java.lang.String but should be a java.lang.Integer
+PI80535 ClassNotFoundException due to classes not being exported to the thread context
+PI80547 Federated Repository's participatingBaseEntry element does not allow name attribute to be empty string
+PI80631 Access Log file and ELK time stamps are not the same
+PI80632 Messages with digits in prefix of message ID have a blank messageId field in logstashCollector
+PI80634 When trying to stop an already completed job the error message doesn't return with the correct jobInstanceId
+PI80635 CDI implementation does not support batch artifact loading via batch.xml
+PI80650 MEMORY LEAK IN SP132 KEY8 CAUSES OUTOFMEMORY IN LIBERTY
+PI80668 ServletException when creating a servlet, filter or listener from a ServletContextListener with Java2Security enabled.
+PI80719 Websocket race condition on writing data while closing can hang a thread
+PI80744 SPI class, PathUtils is not normalizing leading double slashes.
+PI80844 Failure if running binaryLog view serverName from wlp/usr/servers directory
+PI80901 Version numbers in symbolic names are too fine grained and can cause failover to fail between different versions of Liberty.
+PI80988 WEBSPHERE OLA (WOLA) SERVICE REQUEST ISSUES RETURN CODE=8, REASON CODE=96 WHEN CALLED FROM AN IMS CCTL REGION.
+PI81007 Incorrect messages were thrown at System output console when using JMX connector
+PI81076 ServerSession numberOfNonPooledConnectionsUsed can become invalid when Exception is thrown connecting
+PI81082 java.lang.ClassFormatError: JVMCFRE074 no Code attribute specified; is thrown
+PI81086 NullPointerException thrown when using a JAX-RS provider class without a public constructor
+PI81297 APPLICATION FAILS TO INITIALIZE AT STARTUP WITH ERROR CWWKZ0021E
+PI81396 Unable to register a liberty server with product insights though an authentication required proxy.
+PI81403 An error may occur if the string representation of a subject includes an ID token that contains a claim with a non-string list.
+PI81519 In WebSphere Liberty, the context pool timeout value  is not honored on the LDAP Registry
+PI81549 When using SQLJ context caching, auto commit and/or transaction isolation level become inconsistent .
+PI81555 The ldapRegistry feature does not properly process LDAP entities with RDN values that contain characters that need escaping.
+PI81688 Plugin config file generation fails after a configuration update is made to a Liberty server when it is running.
+PI81717 The WaitTime provided by the ConnectionPoolStats MBean is in nanoseconds when it should be (and is documented) in milliseconds.
+PI81840 Bean Validation 1.1 @DecimalMin and @DecimalMax constraints inclusive property not working.
+PI82020 WeldTerminalListener is not registered.
+PM76997 VMM certificate authentication fails when DN contains non-default X509Certificate attributes

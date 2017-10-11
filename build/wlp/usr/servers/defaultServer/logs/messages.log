@@ -1,0 +1,41 @@
+********************************************************************************
+product = WebSphere Application Server 17.0.0.2 (wlp-1.0.17.cl170220170523-1818)
+wlp.install.dir = /Users/dblitz/sample.Spring/build/wlp/
+java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+java.version = 1.8.0_144
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_144-b01)
+os = Mac OS X (10.12.5; x86_64) (en_US)
+process = 34421@devins-mbp.austin.ibm.com
+********************************************************************************
+[10/11/17 10:04:38:709 CDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[10/11/17 10:04:38:719 CDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/17.0.0.2/lafiles/en.html
+[10/11/17 10:04:39:579 CDT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1.15 seconds
+[10/11/17 10:04:39:609 CDT] 00000019 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[10/11/17 10:04:40:363 CDT] 00000012 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications. 
+[10/11/17 10:04:40:369 CDT] 0000001c com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host localhost  (IPv4: 127.0.0.1) port 9811.
+[10/11/17 10:04:40:645 CDT] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application sample.spring.
+[10/11/17 10:04:41:435 CDT] 00000022 com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[10/11/17 10:04:41:448 CDT] 00000022 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: sample.spring.
+[10/11/17 10:04:41:451 CDT] 00000022 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module sample.spring has been bound to default_host.
+[10/11/17 10:04:41:452 CDT] 00000022 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://localhost:9811/sample.spring/
+[10/11/17 10:04:41:456 CDT] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application sample.spring started in 0.811 seconds.
+[10/11/17 10:04:41:478 CDT] 00000019 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [jsp-2.3, servlet-3.1, el-3.0].
+[10/11/17 10:04:41:479 CDT] 00000019 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 1.903 seconds.
+[10/11/17 10:04:41:479 CDT] 00000019 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The server defaultServer is ready to run a smarter planet.
+[10/11/17 10:04:41:632 CDT] 0000002c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/dblitz/sample.Spring/build/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[10/11/17 10:04:41:848 CDT] 0000002b com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/sample.spring
+[10/11/17 10:04:41:860 CDT] 0000002b com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[10/11/17 10:04:41:952 CDT] 0000002b com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [sample.spring]:.No Spring WebApplicationInitializer types detected on classpath
+[10/11/17 10:04:42:004 CDT] 0000002b com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [sample.spring]:.Initializing Spring root WebApplicationContext
+[10/11/17 10:04:42:006 CDT] 0000002b SystemErr                                                    R log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).
+[10/11/17 10:04:42:007 CDT] 0000002b SystemErr                                                    R log4j:WARN Please initialize the log4j system properly.
+[10/11/17 10:04:42:007 CDT] 0000002b SystemErr                                                    R log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[10/11/17 10:04:42:441 CDT] 0000002b com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [sample.spring]:.Initializing Spring FrameworkServlet 'appServlet'
+[10/11/17 10:04:43:204 CDT] 0000002b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [sample.spring] [/sample.spring] [appServlet]: Initialization successful.
+[10/11/17 10:04:49:246 CDT] 00000026 SystemOut                                                    O 7239 [Default Executor-thread-9] INFO com.ibm.ws.samples.spring.PhoneBookController  - Welcome home! The client locale is en_US.
+[10/11/17 10:04:49:251 CDT] 00000026 SystemOut                                                    O 7245 [Default Executor-thread-9] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Invoking afterPropertiesSet() on bean with name 'listPhones'
+[10/11/17 10:04:49:251 CDT] 00000026 SystemOut                                                    O 7245 [Default Executor-thread-9] DEBUG org.springframework.web.servlet.DispatcherServlet  - Rendering view [org.springframework.web.servlet.view.JstlView: name 'listPhones'; URL [/WEB-INF/views/listPhones.jsp]] in DispatcherServlet with name 'appServlet'
+[10/11/17 10:04:49:251 CDT] 00000026 SystemOut                                                    O 7245 [Default Executor-thread-9] DEBUG org.springframework.web.servlet.view.JstlView  - Added model object 'phones' of type [java.util.ArrayList] to request in view with name 'listPhones'
+[10/11/17 10:04:49:262 CDT] 00000026 SystemOut                                                    O 7256 [Default Executor-thread-9] DEBUG org.springframework.web.servlet.view.JstlView  - Forwarding to resource [/WEB-INF/views/listPhones.jsp] in InternalResourceView 'listPhones'
+[10/11/17 10:04:49:722 CDT] 00000026 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [sample.spring] [/sample.spring] [/WEB-INF/views/listPhones.jsp]: Initialization successful.
+[10/11/17 10:04:49:745 CDT] 00000026 SystemOut                                                    O 7739 [Default Executor-thread-9] DEBUG org.springframework.web.servlet.DispatcherServlet  - Successfully completed request

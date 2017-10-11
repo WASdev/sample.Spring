@@ -1,0 +1,27 @@
+#Tue May 23 20:10:19 BST 2017
+lib/features/com.ibm.websphere.appserver.jaxws-2.2.mf=3058cb19026ca5c1850af8d34a4e8b71
+dev/api/spec/com.ibm.websphere.javaee.jaxws.2.2_1.0.17.jar=19bcc121a2a964f96f4eb0e2dd47f60d
+lib/com.ibm.ws.org.apache.cxf-rt-frontend-simple.2.6.2_1.0.17.jar=4e0bf304db5ae2d6307c504cbbe83be4
+lib/com.ibm.ws.javaee.ddmodel.wsbnd_1.0.17.jar=90e37961c3bde8a8b8f56ade5b6ee09f
+lib/com.ibm.ws.org.apache.cxf-rt-ws-addr.2.6.2_1.0.17.jar=9bcce7db2a4b95ff1e20589de9c4085a
+lib/com.ibm.ws.org.apache.cxf-rt-frontend-jaxws.2.6.2_1.0.17.jar=d233cfd8dfe95f9a3f900b83f42fbf4c
+lib/com.ibm.ws.prereq.wsdl4j.1.6.2_1.0.17.jar=6dccf7b1f9b61f90824f209a072a57d8
+lib/com.ibm.ws.org.apache.xml.resolver.1.2_1.0.17.jar=9b873ceeb2cb026ab25537ed4756a273
+lib/com.ibm.ws.org.apache.cxf-rt-ws-policy.2.6.2_1.0.17.jar=38aa3a1777ebb3ba8f3eeba62541e183
+lib/com.ibm.ws.org.apache.cxf-rt-bindings-soap.2.6.2_1.0.17.jar=0bec447a4efddeb68f5df390d7b5fe83
+lib/com.ibm.ws.org.apache.cxf-rt-transports-http.2.6.2_1.0.17.jar=22b99cec27ffbea6cc3a2cb2aaad7e48
+lib/com.ibm.ws.org.apache.cxf-rt-core.2.6.2_1.0.17.jar=2bc3127d192aff4315e3e17f6bd5e386
+lib/com.ibm.ws.org.apache.ws.xmlschema.core.2.0.3_1.0.17.jar=272e081d456b69c792208d3db181a594
+lib/com.ibm.ws.jaxws.tools.2.2.10_1.0.17.jar=d7b6aff817b4e132800e123e8536f8db
+bin/jaxws/tools/ws-wsimport.jar=82b20a50463dcf97922afded24371407
+lib/com.ibm.ws.org.apache.cxf-api.2.6.2_1.0.17.jar=a03f1dbb8f68608c6f72c6d3fe40e2fd
+dev/api/spec/com.ibm.websphere.javaee.wsdl4j.1.2_1.0.17.jar=0847c36d3d5f8f8728d41f8d33ac9551
+lib/com.ibm.ws.org.apache.neethi.3.0.2_1.0.17.jar=e91719c9a4e19498acce492eb26d964a
+bin/jaxws/tools/ws-wsgen.jar=c591e1ca322d1b9f9c4fc8b6683ebbac
+lib/com.ibm.ws.org.apache.cxf-rt-management.2.6.2_1.0.17.jar=00acbb52ec3f761dcf21491e55deab64
+lib/com.ibm.ws.jaxws.common_1.0.17.jar=abcf1469f1fee03646d91110b51dda7f
+lib/com.ibm.ws.org.apache.cxf-rt-databinding-jaxb.2.6.2_1.0.17.jar=b4f06d0c47ad5463a9178387d317e711
+lib/com.ibm.ws.jaxws.wsat_1.0.17.jar=97c55717ad35d6a23d850749a6a21c82
+lib/com.ibm.ws.org.apache.cxf-rt-bindings-xml.2.6.2_1.0.17.jar=4b2ff7e59ccb9765d5403af0c54020ed
+dev/api/spec/com.ibm.websphere.prereq.wsdl4j.api_1.0.17.jar=27d728725f2243f86788c6b71f7f4c18
+dev/api/ibm/schema/ibm-ws-bnd_1_0.xsd=f883cf9b0a2a4a4562c99e7874cd07c1
