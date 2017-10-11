@@ -34,11 +34,11 @@ Use the following steps to run the application with Maven:
 
 ## Gradle
 ### Running in Eclipse with Gradle
-1. Go to Help > Eclipse Marketplace > Install Buildship Gradle Integration 2.0 
+1. Go to Help > Eclipse Marketplace > Install Buildship Gradle Integration 2.0.
 2. Clone this project and import into Eclipse as an 'Existing Gradle Project'.
-3. Go to Window > Show View > Other > Gradle Executions & Gradle Tasks
-4. Go to Gradle Tasks view and run clean in build folder, then build in build folder, then libertyStart in liberty folder
-3. You should see the following in the console: `Application sample.spring started in XX.XX seconds.`
+3. Go to Window > Show View > Other > Gradle Executions & Gradle Tasks.
+4. Go to Gradle Tasks view and run clean in build folder, then build in build folder, then libertyStart in liberty folder.
+5. You should see the following in the console: `Application sample.spring started in XX.XX seconds.`
 
  
 ### Running with Gradle command-line

@@ -75,7 +75,8 @@ liberty {
                                'default.https.port': testServerHttpsPort,
                                'appContext': warContext,
                                'appLocation': war.archiveName]
-        looseApplication = true
+        
+        // looseApplication = true
     }
     
     packageLiberty {
@@ -109,5 +110,5 @@ task printMessageAboutRunningServer {
     }
 }
 
-
+libertyStart.dependsOn 'installApps'
 libertyStart.finalizedBy 'printMessageAboutRunningServer'
