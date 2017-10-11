@@ -8,21 +8,15 @@ This sample demonstrates Spring and Spring MVC integration through a simple phon
 This sample can be installed onto runtime versions 8.5.5.0 and later.
 
 
+
+## Maven
 ## Running in Eclipse with Maven
 
 1. Clone this project and import into Eclipse as an 'Existing Maven Project'.
 2. Right-click the project and select **Run As > Run on Server**.
 3. You should see the following in the console: `Application sample.spring started in XX.XX seconds.`
 
-## Running in Eclipse with Gradle
-
-1. Clone this project and import into Eclipse as an 'Existing Gradle Project'.
-2. Go to Help > Eclipse Marketplace > Install Buildship Gradle Integration 2.0 
-3. Go to Window > Show View > Other > Gradle Executions & Gradle Tasks
-4. Go to Gradle Tasks View build/clean then build/build then liberty/libertyStart
-3. You should see the following in the console: `Application sample.spring started in XX.XX seconds.`
-
-## Running with Maven
+## Running with Maven Command Line
 
 This project can be built with [Apache Maven]. The project uses [Liberty Maven Plug-in] to automatically download and install the Liberty Java EE 7 Full Platform runtime from [Maven Central]. Liberty Maven Plug-in is also used to create, configure, and run the application on the Liberty server. 
 
@@ -37,7 +31,16 @@ Use the following steps to run the application with Maven:
     ```bash
     $ mvn liberty:run-server
     ```
-    ```
+
+## Gradle
+## Running in Eclipse with Gradle
+
+1. Clone this project and import into Eclipse as an 'Existing Gradle Project'.
+2. Go to Help > Eclipse Marketplace > Install Buildship Gradle Integration 2.0 
+3. Go to Window > Show View > Other > Gradle Executions & Gradle Tasks
+4. Go to Gradle Tasks View build/clean then build/build then liberty/libertyStart
+3. You should see the following in the console: `Application sample.spring started in XX.XX seconds.`
+
  
 ## Running with Gradle
 
