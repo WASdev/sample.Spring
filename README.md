@@ -8,27 +8,60 @@ This sample demonstrates Spring and Spring MVC integration through a simple phon
 This sample can be installed onto runtime versions 8.5.5.0 and later.
 
 
-## Running in Eclipse with Maven
+
+## Maven
+### Running in Eclipse with Maven
 
 1. Clone this project and import into Eclipse as an 'Existing Maven Project'.
 2. Right-click the project and select **Run As > Run on Server**.
 3. You should see the following in the console: `Application sample.spring started in XX.XX seconds.`
 
-## Running with Maven
+### Running with Maven command-line
 
-This project can be built with [Apache Maven](http://maven.apache.org/). The project uses [Liberty Maven Plug-in][] to automatically download and install Liberty with Java EE7 Web Profile runtime from the Maven Central. Liberty Maven Plug-in is also used to create, configure, and run the application on the Liberty server. 
+This project can be built with [Apache Maven]. The project uses [Liberty Maven Plug-in] to automatically download and install the Liberty Java EE 7 Full Platform runtime from [Maven Central]. Liberty Maven Plug-in is also used to create, configure, and run the application on the Liberty server. 
 
 Use the following steps to run the application with Maven:
 
-1. Execute full Maven build. This will cause Liberty Maven Plug-in to download and install Liberty profile server.
+1. Execute the full Maven build. The Liberty Maven Plug-in will download and install the Liberty runtime and create the server.
     ```bash
     $ mvn clean install
     ```
-    
-2. To run the server with the Servlet sample execute:
+
+2. To run the server with the Spring application execute:
     ```bash
     $ mvn liberty:run-server
     ```
+
+## Gradle
+### Running in Eclipse with Gradle
+1. Go to Help > Eclipse Marketplace > Install Buildship Gradle Integration 2.0.
+2. Clone this project and import into Eclipse as an 'Existing Gradle Project'.
+3. Go to Window > Show View > Other > Gradle Executions & Gradle Tasks.
+4. Go to Gradle Tasks view and run clean in build folder, then build in build folder, then libertyStart in liberty folder.
+5. You should see the following in the console: `Application sample.spring started in XX.XX seconds.`
+
+ 
+### Running with Gradle command-line
+
+This project can be built with [Gradle]. The project uses [Liberty Gradle Plug-in] to automatically download and install Liberty with Java EE 7 Full Platform runtime from [Maven Central]. Liberty Gradle Plug-in is also used to create, configure, and run the application on the Liberty server. 
+
+Use the following steps to run the application with Gradle:
+
+1. Execute full Gradle build. This will cause Liberty Gradle Plug-in to download and install Liberty profile server.
+    ```bash
+    $ gradle clean build
+    ```
+
+2. To run the server with the Spring application execute:
+    ```bash
+    $ gradle libertyStart
+    ```
+        
+3. To stop the server with the Spring application execute:
+    ```bash
+    $ gradle libertyStop
+    ```
+ 
 
 In your browser, enter the URL for the application: [http://localhost:9811/sample.spring/](http://localhost:9811/sample.spring/) (where port 9811 assumes the httpEndpoint provided in the sample server.xml has not been modified).
 In your browser, you should see the phone book displayed.
@@ -54,3 +87,11 @@ limitations under the License.
 ````
 
 [Liberty Maven Plug-in]: https://github.com/WASdev/ci.maven
+[Liberty Gradle Plug-in]: https://github.com/WASdev/ci.gradle
+
+[Apache Maven]: http://maven.apache.org
+[Gradle]: https://gradle.org/
+
+[Maven Central]: https://search.maven.org/
+
+
